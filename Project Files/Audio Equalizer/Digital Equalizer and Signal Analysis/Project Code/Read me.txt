@@ -1,0 +1,9 @@
+Procedure:
+
+1) Browse the music signal. The file should be of .wav format.
+2) Play the signal and notice the actual frequency components. 
+3) The time domain representation of the signal can be done using the PLOT button.
+4) Plot the spectrum of the actual signal using the PLOT SPECTRUM button.
+5) Select the desired filter from the pop-up menu and observe the filtered signal frequency components.
+6) Changing the value of the sliders will change the gain of the corresponding filter. 
+7) Observe the change in the acoustic nature of the reconstructed signal using PLAY button. 

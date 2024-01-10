@@ -1,0 +1,26 @@
+ant:
+<ant>
+  <mkdir dir="C:\Users\admin\Desktop\Adel Matlab\Calculator\calc\for_redistribution" />
+  <mkdir dir="C:\Users\admin\Desktop\Adel Matlab\Calculator\calc\for_testing" />
+  <mkdir dir="C:\Users\admin\Desktop\Adel Matlab\Calculator\calc\for_redistribution_files_only" />
+</ant>
+mcc -C -o calc -W WinMain:calc -T link:exe -d 'C:\Users\admin\Desktop\Adel Matlab\Calculator\calc\for_testing' -v 'C:\Users\admin\Desktop\Adel Matlab\Calculator\calc.m' -a 'C:\Users\admin\Desktop\Adel Matlab\Calculator\calc.fig' 
+Compiler version: 6.0 (R2015a)
+Dependency analysis by REQUIREMENTS.
+Begin validation of MEX files: Sat May 18 23:30:02 2019
+End validation of MEX files: Sat May 18 23:30:02 2019
+[Warning: Adding path "C:\Users\admin\Desktop\Adel Matlab\Calculator" to
+Compiler path instance.] 
+Parsing file "C:\Users\admin\Desktop\Adel Matlab\Calculator\calc.m"
+	(Referenced from: "Compiler Command Line").
+Deleting 0 temporary MEX authorization files.
+Generating file "C:\Users\admin\Desktop\Adel Matlab\Calculator\calc\for_testing\readme.txt".
+Packaging...
+Adding custom icon C:\Program Files\MATLAB\MATLAB Production Server\R2015a\toolbox\compiler\Resources\default_icon.ico to C:\Users\admin\Desktop\Adel Matlab\Calculator\calc\for_testing\calc.exe.
+Attempting to embed the CTF archive into the application C:\Users\admin\Desktop\Adel Matlab\Calculator\calc\for_testing\calc.exe.
+Finished embedding CTF archive. Deleting the external CTF archive.
+Creating the bundle...
+Failed to embed the install agent from C:\Users\admin\AppData\Local\Temp\admin\installAgent8.5_win32\InstallAgent_35000_35010.zip.
+UpdateResource failed: Insufficient memory to perform the command. Please free some memory by closing some applications or adding more memory and then restart the process.
+Failed to create the full installer.
+No installer package created.

@@ -1,0 +1,70 @@
+% --- Executes on button press in Squareroot.
+function Squareroot_Callback(hObject, eventdata, handles)
+% hObject    handle to Squareroot (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+str=get(handles.inputastext,'string');
+s=str2double(str);
+sqr=sqrt(s);
+t=num2str(sqr);
+set(handles.textasoutput,'string',t);
+
+
+
+% --- Executes on button press in inverse.
+function inverse_Callback(hObject, eventdata, handles)
+% hObject    handle to inverse (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+str=get(handles.inputastext,'string');
+s=str2double(str);
+div=(1/s);
+t=num2str(div);
+set(handles.textasoutput,'string',t);
+
+
+
+str=get(handles.inputastext,'string');
+s=str2double(str);
+expo=exp(s);
+t=num2str(expo);
+set(handles.textasoutput,'string',t);
+
+
+
+
+
+str=get(handles.inputastext,'string');
+s=str2double(str);
+per=s/100;
+t=num2str(per);
+set(handles.textasoutput,'string',t);
+
+
+
+
+
+str=get(handles.inputastext,'string');
+s=str2double(str);
+ln=log(s);
+t=num2str(ln);
+set(handles.textasoutput,'string',t);
+
+
+
+
+
+
+
+
+str=get(handles.inputastext,'string');
+s=str2double(str);
+log=log10(s);
+t=num2str(log);
+set(handles.textasoutput,'string',t);
+
+
+
+
+
+

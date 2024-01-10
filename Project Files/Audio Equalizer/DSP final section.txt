@@ -1,0 +1,10 @@
+part 1 review on sound processing using MATLAB:
+ 
+https://drive.google.com/file/d/1caWOXl2dnX0jaCP8yUefJ-9m_tgQG318/view?fbclid=IwAR3AXw4q4RwRDSgNmUrIrbPPvHhN2bClzPKvNiBHsSP9gHoEg5zC59uF1io
+
+part 2 signals in frequency domain:
+https://drive.google.com/file/d/1KEnm89AxB1AiYG62kjpsrzl92JTvN6Iq/view?fbclid=IwAR1D-sggEIwCmjtJBxPJtFTRypbzPsmfTklDXm4Ks5ZbHN0NFPF5zE3D7Ck
+
+part 3 filters:
+https://drive.google.com/drive/folders/1nH-4EaRGbvHu4yXvT2DMmScPf2oTiNXf?usp=sharing
+

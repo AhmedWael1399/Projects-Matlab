@@ -1,0 +1,54 @@
+% coef9=fir1(N,wc9/fn); 
+% [Hf9,wf9]=freqz(coef9,1);
+% figure
+% plot(wf9/pi, abs(Hf9));
+% impulseResponsef9 = filter(coef9,1, delta);
+% disp(impulseResponsef9);
+% stepResponsef9 = filter(coef9,1, step);
+% disp(stepResponsef9);
+% figure
+% zplane(roots(coef9));
+
+coef8=fir1(N,wc8/fn); 
+[Hf8,wf8]=freqz(coef8,1);
+figure
+plot(wf8/pi, abs(Hf8));
+impulseResponsef8 = filter(coef8,1, delta);
+disp(impulseResponsef8);
+stepResponsef8 = filter(coef8,1, step);
+disp(stepResponsef8);
+figure
+zplane(roots(coef8));
+
+coef7=fir1(N,wc7/fn); 
+[Hf7,wf7=freqz(coef7,1);
+figure
+plot(wf7/pi, abs(Hf7));
+impulseResponsef7 = filter(coef7,1, delta);
+disp(impulseResponsef7);
+stepResponsef7 = filter(coef7,1, step);
+disp(stepResponsef7);
+figure
+zplane(roots(coef7));
+
+coef6=fir1(N,wc6/fn); 
+[Hf6,wf6]=freqz(coef6,1);
+figure
+plot(wf6/pi, abs(Hf6));
+impulseResponsef6 = filter(coef6,1, delta);
+disp(impulseResponsef6);
+stepResponsef6 = filter(coef6,1, step);
+disp(stepResponsef6);
+figure
+zplane(roots(coef6));
+
+coef5=fir1(N,wc5/fn); 
+[Hf5,wf5]=freqz(coef5,1);
+figure
+plot(wf5/pi, abs(Hf5));
+impulseResponsef5 = filter(coef5,1, delta);
+disp(impulseResponsef5);
+stepResponsef5 = filter(coef5,1, step);
+disp(stepResponsef5);
+figure
+zplane(roots(coef5));
